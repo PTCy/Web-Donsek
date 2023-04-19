@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;500;700&display=swap%27');
+
+body{
+    font-family: 'Kodchasan', sans-serif;
+}
+.navbar-nav .nav-link{
+    color: #fff;
+}
+.bg-corlor{
+    background-color: #F6A21E;
+}
+.image-container{
+    height: 100vh;
+    width: 65%;
+    align-items: center;
+}
+.btn-login{
+    color: #fff;
+    background-color: #282120;
+}
+.btn-login:hover{
+    color: #fff;
+    background-color: #81290c;
+}
+
+@media screen and (max-width: 800px) {
+    .image-container {
+        height: 50vh;
+        width: 100%; 
+    }
+    .bt_login{
+        margin-bottom: 10px;
+    }
+    .bg-corlor{
+        height: 100vh;
+    }
+  }

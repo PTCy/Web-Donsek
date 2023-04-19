@@ -1,0 +1,16 @@
+
+/* --------------------style.css-------------------------- */
+.error {
+    width: 100%;
+    margin: 0px auto;
+    border: 1px solid #282120;
+    color: #fff;
+    background: #B8390E;
+    border-radius: 5px;
+}
+.success {
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
